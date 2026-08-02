@@ -1,0 +1,225 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+body {
+    font-family: "Goldman", sans-serif;
+     font-weight: 400;
+  font-style: normal;
+    line-height: 1.6;
+    color: rgb(159, 255, 250);
+    background-color: rgb(59, 7, 107);
+    margin: 0 10%;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px #90fbff;
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    
+}
+
+h1 {
+    font-family: "Goldman", sans-serif;
+   font-weight: 700;
+  font-style: normal;;
+    color: rgb(59, 7, 107);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+        letter-spacing: 5px;
+        margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+h2, h3 {
+    font-family: "Goldman", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+main a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+/* Form Elements Setup */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: orange;
+}
+
+legend {
+    color: #8c2d19;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+label {
+    font-weight: 600;
+    color: #2c2523;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8c2d19;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #8c2d19;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #631f11;
+}
+/* News Page Specific Styles */
+body.news-page h1 {
+    color: maroon;
+    border-top: 1px solid maroon;
+    border-bottom: 1px solid maroon;
+    padding: 12px;
+}
+
+body.news-page h2 {
+    color: maroon;
+    margin-left: 100px;
+}
+
+body.news-page h2.orange-heading {
+    color: orange;
+}
+
+body.news-page p {
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+
+body.news-page img {
+    float: right;
+    margin: 0 12px;
+}
+/* Article styling for news page */
+article {
+    margin-bottom: 30px;
+}
+
+article small {
+    color: #666666;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 12px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+}
+main h2, main h3 {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+  height: 44px;
+}
+/* Menu Page Specific Styles */
+body.menu-page dt {
+    color: darkolivegreen;
+}
+/* Menu entree and price styling */
+body.menu-page dt {
+    color: #35471a;
+    font-weight: bold;
+}
+
+body.menu-page dt em {
+    color: darkolivegreen;
+    font-weight: normal;
+}
+
+body.menu-page .price {
+    color: #1a2f5c;
+    font-weight: bold;
+}
+</style>
