@@ -45,10 +45,7 @@ nav a {
     border-radius: 20px;
     transition: all 0.3s ease;
 }
-nav a:hover {
-    background-color: rgb(59, 7, 107);
-    color: rgb(255, 255, 255);
-}
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -65,9 +62,7 @@ main a {
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
-main a:hover {
-    text-decoration: underline;
-}
+
 form {
     display: flex;
     flex-direction: column;
