@@ -36,15 +36,6 @@ nav ul {
     gap: 12px;
     flex-wrap: wrap;
 }
-nav a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    padding: 8px 16px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    transition: all 0.3s ease;
-}
 
 main {
     max-width: 800px;
