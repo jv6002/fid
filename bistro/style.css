@@ -36,7 +36,6 @@ nav ul {
     gap: 12px;
     flex-wrap: wrap;
 }
-
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -69,4 +68,22 @@ legend {
     padding: 0 10px;
 }
 
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+}
+main h2, main h3 {
+  text-align: center;
+}
 
+footer p {
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+  height: 44px;
+}
